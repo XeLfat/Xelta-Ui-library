@@ -1,3 +1,17 @@
+--[[
+    SimpleUI Library - Part 1
+    Core System & Tab Management
+    
+    Features:
+    - Chain Function Pattern (เหมือน Rayfield)
+    - Modular Architecture (รองรับการ extend ใน Part ต่อไป)
+    - Tab System
+    - Window Controls (Minimize, Fullscreen, Close)
+    - Mobile Touch Drag Support
+    - Lucide Icon Support
+]]
+
+-- Services
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
@@ -550,4 +564,5 @@ setmetatable(Window, WindowMetatable)
 setmetatable(Tab, TabMetatable)
 
 -- Return Library Instance
-return UILibrary.new()
+return UILibrary.new()</document_content>
+</invoke>
