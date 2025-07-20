@@ -564,4 +564,4 @@ setmetatable(Window, WindowMetatable)
 setmetatable(Tab, TabMetatable)
 
 -- Return Library Instance
-return UILibrary.new()
+return UILibrary
